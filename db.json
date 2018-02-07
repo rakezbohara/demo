@@ -1,12 +1,15 @@
 {
-  "posts": [
-    { "id": 1, "name": "1", "status":"busy", "availiable":true },
-    { "id": 2, "name": "2", "status":"free", "availiable":true },
-    { "id": 3, "name": "3", "status":"free", "availiable":true },
-    { "id": 4, "name": "4", "status":"free", "availiable":true },
-    { "id": 5, "name": "5", "status":"waiting", "availiable":true },
-    { "id": 6, "name": "6", "status":"waiting", "availiable":true }
-  ],
+  "posts": {
+    "tables":[
+      { "id": 1, "name": "1", "status":"busy", "availiable":true },
+      { "id": 2, "name": "2", "status":"free", "availiable":true },
+      { "id": 3, "name": "3", "status":"free", "availiable":true },
+      { "id": 4, "name": "4", "status":"free", "availiable":true },
+      { "id": 5, "name": "5", "status":"waiting", "availiable":true },
+      { "id": 6, "name": "6", "status":"waiting", "availiable":true }
+    ]
+    
+  },
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
