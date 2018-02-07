@@ -1,11 +1,8 @@
 {
-   "table": [
-    { "id": 1, "name": "1", "status":"busy", "avialiable": true },
-    { "id": 2, "name": "2", "status":"free", "avialiable": true },
-    { "id": 3, "name": "3", "status":"free", "avialiable": true },
-    { "id": 4, "name": "4", "status":"free", "avialiable": true },
-    { "id": 5, "name": "5", "status":"waiting", "avialiable": true },
-    { "id": 6, "name": "6", "status":"waiting", "avialiable": true }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
